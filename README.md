@@ -20,6 +20,18 @@ This repository provides the **processed layout data** used for model training, 
 
 ---
 
+## ⬇️  Download the Dataset
+Requires Python and `kagglehub`.
+
+```bash
+pip install kagglehub
+python fetch_data.py
+# or set the dataset slug:
+# KAGGLE_DATASET=alexsalama/laycoder python fetch_data.py
+```
+
+---
+
 ## 📂 Dataset Structure
 
 
